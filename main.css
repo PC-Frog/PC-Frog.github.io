@@ -1,0 +1,75 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url(../Assets/Fondo-Nivel/Sea\ Blue.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    text-align: center;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+
+
+.Main {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    padding-bottom: 0px;
+    max-width: 100%;
+}   
+
+.Contenido-main {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.Main h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.Main p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.descarga {
+    background-color: rgb(114, 9, 194);
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.descarga:hover {
+    background-color: #f2efe6;
+    color: #000;
+}
+
+.Articulo-gameplay {
+    width: 100%;
+
+}
+
+.Gameplay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: 1;
+}
